@@ -1,0 +1,4 @@
+build/
+.env
+WeatherApp/build/
+WeatherApp/.env

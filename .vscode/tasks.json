@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build WeatherApp",
+      "type": "shell",
+      "command": "cmake -S . -B build && cmake --build build",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run WeatherApp",
+      "type": "shell",
+      "command": "build/weather_app.exe",
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}
