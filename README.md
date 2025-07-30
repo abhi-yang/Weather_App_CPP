@@ -67,8 +67,11 @@ pacman -S mingw-w64-x86_64-raylib
 pacman -S mingw-w64-x86_64-curl
 pacman -S mingw-w64-x86_64-nlohmann-json
 
+```
 
 ## 📁 Project Structure
+
+
 ```bash
 WeatherApp/
 ├── .vscode/                    # VS Code settings for build/debug
