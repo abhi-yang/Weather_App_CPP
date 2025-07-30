@@ -14,3 +14,13 @@ A simple C++ weather app using Raylib for UI and curl for API requests.
 ## Usage
 - Run the app, enter a city, and view weather info
 - Press R to reset and enter a new city
+
+
+## Building and running the code :
+```bash
+    cmake -S . -B build; cmake --build build
+```
+## Running the code:
+```bash
+   .\build\weather_app.exe
+```
